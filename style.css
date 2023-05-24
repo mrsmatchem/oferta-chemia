@@ -135,17 +135,23 @@ section {
 .offers-box .down-side {
   position: relative;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2rem 0;
+  padding: 1.3rem 1.8rem;
   background: rgb(250, 19, 158);
   border-radius: 0 0 1.8rem 1.8rem;
 }
 
+.offers-box .down-side p {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+}
+
 .offers-box .down-side h5 {
-  position: absolute;
-  text-decoration: line-through 0.3rem rgb(5, 4, 83);
-  top: 1rem;
+  /* position: absolute; */
+  text-decoration: line-through 0.2rem rgb(5, 4, 83);
+  /* top: 1rem; */
   font-size: 2rem;
 }
 
@@ -160,10 +166,14 @@ section {
 .offers-box h3 {
   font-size: 2.6rem;
 }
+
+.offers-box .fa-trophy {
+  color: #e1c702;
+}
+
 .offers-box h4 {
   font-size: 4rem;
   /* background: rgba(250, 19, 158); */
-  padding: 1.3rem 1.8rem;
   border-radius: 1rem;
   /* border-top: 0.5rem solid rgb(250, 19, 158); */
   /* border-bottom: 0.5rem solid rgb(250, 19, 158); */
@@ -192,6 +202,14 @@ section {
 .offers-box ul li span {
   font-weight: 700;
   color: rgb(250, 19, 158);
+}
+
+.offers-warning {
+  text-align: center;
+}
+
+.offers-warning__span {
+  color: red;
 }
 
 .footer {
