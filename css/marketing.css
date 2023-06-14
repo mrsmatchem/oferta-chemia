@@ -24,21 +24,28 @@
 }
 
 .marketing__start-heading {
+  margin-top: 10rem;
+}
+
+.marketing__start-heading,
+.marketing__start-heading-span,
+.heading {
   font-size: 4.5rem;
   font-weight: 900;
-  letter-spacing: 0.1rem;
   color: #4472c4;
   text-shadow: 0rem 0rem 1rem black;
-  margin: 10rem 0 4rem;
-  text-align: left;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.marketing__start-heading span {
+.marketing__start-heading-span {
   font-size: 10rem;
   color: rgb(250, 19, 158);
+  margin-bottom: 4rem;
 }
 
-.first-list__box {
+.list__box {
   margin-bottom: 4rem;
   display: flex;
   width: 100%;
@@ -52,16 +59,16 @@
   transition: 0.3s;
 }
 
-.first-list__box:hover {
+.list__box:hover {
   transform: scale(1.05);
   border-color: rgb(250, 19, 158);
 }
 
-.first-list__box:nth-of-type(even) {
+.list__box:nth-of-type(even) {
   flex-direction: row-reverse;
 }
 
-.first-list__text h3 {
+.list__text h3 {
   /* color: #4472c4; */
   color: rgb(250, 19, 158);
   font-size: 3rem;
@@ -69,19 +76,89 @@
   font-weight: 900;
 }
 
-.first-list__text p {
+.list__text p {
   font-size: 2.4rem;
   text-align: justify;
   font-weight: 700;
 }
 
-.first-list__image {
+.list__image {
   flex-basis: 100%;
   /* min-height: 30rem; */
 }
 
-.first-list__image img {
+.list__image img {
   min-height: 30rem;
+}
+
+.marketing__second-heading {
+  color: rgb(250, 19, 158);
+  font-weight: 800;
+  font-size: 4.5rem;
+  margin: 7rem auto 3rem;
+  text-align: center;
+  text-shadow: 0rem 0rem 1rem black;
+}
+
+.marketing__second-list {
+  padding: 0 10% 10rem;
+  list-style-image: url("../media/school-icon.svg");
+}
+
+.marketing__second-list li {
+  margin-bottom: 3rem;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.marketing__third-heading {
+  color: #9437ff;
+  text-align: center;
+  font-size: 10rem;
+  text-align: center;
+  padding: 10rem 0;
+  text-shadow: 0.2rem 0.2rem 0 white;
+}
+
+.marketing__fourth-heading {
+  color: gray;
+  text-align: center;
+}
+
+.marketing__fifth-heading {
+  color: rgb(250, 19, 158);
+  font-size: 6rem;
+  text-align: center;
+}
+
+.marketing__sixth-heading {
+  margin-top: 5rem;
+  color: #9437ff;
+  font-size: 5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.marketing__sixth-heading span {
+  color: #4472c4;
+}
+
+.marketing__seventh-heading {
+  color: #9437ff;
+  margin-top: 8rem;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 800;
+}
+.marketing__seventh-heading-down {
+  color: rgb(250, 19, 158);
+  text-align: center;
+  font-size: 10rem;
+  font-weight: 800;
+}
+
+.marketing__seventh-heading-down span {
+  color: #4472c4;
 }
 
 @media (max-width: 991px) {
@@ -90,6 +167,7 @@
     flex-direction: column;
     align-items: center;
   }
+
   .first-list__image {
     /* width: 40rem; */
     max-width: 100%;
@@ -98,5 +176,25 @@
   .first-list__image img {
     height: 100%;
     width: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  .marketing__start-heading {
+    font-size: 3.5rem;
+  }
+
+  .marketing__start-heading-span {
+    font-size: 7rem;
+  }
+}
+
+@media (max-width: 370px) {
+  .marketing__start-heading {
+    font-size: 3rem;
+  }
+
+  .marketing__start-heading-span {
+    font-size: 5rem;
   }
 }

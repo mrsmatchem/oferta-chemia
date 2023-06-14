@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-/* rgba(250,19,158) */
-/* rgba(5,0,228) */
+/* rgb(250,19,158) */
+/* rgb(5,0,228) */
 /* FA139E */
+/* 4472c4 */
 * {
   margin: 0;
   padding: 0;
@@ -156,6 +157,10 @@ section {
   font-size: 2rem;
 }
 
+.offers-box .down-side h4 span {
+  font-size: 1.8rem;
+}
+
 .offers-box .down-side h2 {
   margin-top: 1rem;
   padding: 1rem 0;
@@ -186,8 +191,8 @@ section {
 }
 
 .offers-box h4 {
-  font-size: 4rem;
-  border-radius: 1rem;
+  font-size: 3.5rem;
+  /* border-radius: 1rem; */
 }
 
 .offers-box ul {
