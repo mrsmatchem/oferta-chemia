@@ -162,18 +162,18 @@
 }
 
 @media (max-width: 991px) {
-  .first-list__box,
-  .first-list__box:nth-of-type(even) {
+  .list__box,
+  .list__box:nth-of-type(even) {
     flex-direction: column;
     align-items: center;
   }
 
-  .first-list__image {
+  .list__image {
     /* width: 40rem; */
     max-width: 100%;
   }
 
-  .first-list__image img {
+  .list__image img {
     height: 100%;
     width: 100%;
   }
