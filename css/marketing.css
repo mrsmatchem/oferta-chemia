@@ -71,13 +71,13 @@
 .list__text h3 {
   /* color: #4472c4; */
   color: rgb(250, 19, 158);
-  font-size: 3rem;
+  font-size: 3.4rem;
   margin-bottom: 3rem;
   font-weight: 900;
 }
 
 .list__text p {
-  font-size: 2.4rem;
+  font-size: 2.1rem;
   text-align: justify;
   font-weight: 700;
 }
@@ -94,21 +94,22 @@
 .marketing__second-heading {
   color: rgb(250, 19, 158);
   font-weight: 800;
-  font-size: 4.5rem;
+  font-size: 4rem;
   margin: 7rem auto 3rem;
   text-align: center;
   text-shadow: 0rem 0rem 1rem black;
 }
 
 .marketing__second-list {
-  padding: 0 10% 10rem;
+  padding: 2rem 16% 10rem 20%;
   list-style-image: url("../media/school-icon.svg");
 }
 
 .marketing__second-list li {
-  margin-bottom: 3rem;
-  font-weight: 600;
-  font-size: 3rem;
+  margin-bottom: 4.5rem;
+  font-weight: 700;
+  font-size: 2.1rem;
+  text-align: justify;
 }
 
 .marketing__third-heading {
@@ -170,7 +171,7 @@
 
   .list__image {
     /* width: 40rem; */
-    max-width: 100%;
+    max-width: 70%;
   }
 
   .list__image img {
