@@ -101,7 +101,7 @@
 }
 
 .marketing__second-list {
-  padding: 2rem 16% 10rem 20%;
+  padding: 2rem 16% 2rem 20%;
   list-style-image: url("../media/school-icon.svg");
 }
 
@@ -112,13 +112,16 @@
   text-align: justify;
 }
 
-.marketing__third-heading {
-  color: #9437ff;
-  text-align: center;
-  font-size: 10rem;
-  text-align: center;
-  padding: 10rem 0;
-  text-shadow: 0.2rem 0.2rem 0 white;
+.marketing__link-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6rem;
+}
+
+.marketing__link {
+  display: block;
+  font-size: 3rem;
 }
 
 .marketing__fourth-heading {
