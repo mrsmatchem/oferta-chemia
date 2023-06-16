@@ -3,6 +3,7 @@
 /* rgb(5,0,228) */
 /* FA139E */
 /* 4472c4 */
+/* rgb(5, 4, 83) */
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +22,7 @@ html {
 body {
   background-color: rgb(5, 4, 83);
   color: white;
-  /* overflow: hidden; */
+  /* overflow-x: hidden; */
 }
 
 .header {
