@@ -154,7 +154,10 @@ section {
 }
 
 .offers-box .down-side h5 {
-  text-decoration: line-through 0.2rem rgb(5, 4, 83);
+  text-decoration: line-through 0.2rem;
+  text-decoration-color: rgb(5, 4, 83);
+  text-decoration-thickness: 0.2rem;
+  -webkit-text-decoration-thickness: 0.2rem;
   font-size: 2rem;
 }
 
