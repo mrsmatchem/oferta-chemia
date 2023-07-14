@@ -159,7 +159,7 @@
   text-align: left;
   width: 50.4%;
   align-self: flex-end;
-  border-left: 0.9rem solid rgb(5, 4, 83);
+  border-left: 1rem solid rgb(5, 4, 83);
   padding: 2rem;
 }
 
@@ -171,7 +171,7 @@
   text-align: right;
   width: 50.4%;
   align-self: flex-start;
-  border-right: 0.9rem solid rgb(5, 4, 83);
+  border-right: 1rem solid rgb(5, 4, 83);
   padding: 2rem;
 }
 
